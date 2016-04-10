@@ -1,4 +1,4 @@
-import * as DataLogic from './modules/DLL.js';
+import * as DataLogic from './modules/data-logic.js';
 
 DataLogic.loadFilter();
 DataLogic.loadCards();

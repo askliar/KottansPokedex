@@ -1,4 +1,4 @@
-var cardsRange = 12;
+var cardsRange = 6;
 var offset = 1;
 
 export {
