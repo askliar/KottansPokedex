@@ -1,0 +1,46 @@
+-
+  var pokemonData = {
+    name: 'Bulbasaur',
+    props: [{
+      type: 'Attack',
+      fire: 52
+    },{
+      type: 'Defense',
+      fire: 39
+    },{
+      type: 'HP',
+      fire: 25
+    },{
+      type: 'SP Attack',
+      fire: 90
+    },{
+      type: 'SP Defense',
+      fire: 20,
+    },{
+      type: 'Speed',
+      fire: 13
+    },{
+      type: 'Weight',
+      fire: 2
+    },{
+      type: 'Total Moves',
+      fire: 56,    
+    }]
+  }
+
+.mdl-card.mdl-shadow--4dp.bigCard#bigCard
+  .mdl-card__title
+    img(src="../img/img-small.png", alt="Pokemon").bigCard__img
+  h2.mdl-card__title-text= pokemonData.name 
+  .mdl-card__supporting-text
+    table.mdl-data-table.mdl-js-data-table
+      thead
+        tr
+          th.mdl-data-table__cell--non-numeric Type
+          th.mdl-data-table__cell--non-numeric Fire
+      tbody
+        each prop in pokemonData.props
+          tr
+            td.mdl-data-table__cell--non-numeric= prop.type
+            td= prop.fire
+  

@@ -1,0 +1,33 @@
+@import "../node_modules/bourbon/app/assets/stylesheets/_bourbon"
+@import "mixins"
+
+html
+  font-size: 14px
+  color: rgb(51, 51, 51)
+
+
+.mdl-layout__header-row
+  padding-left: 40px
+.mdl-layout-title_centered
+  margin-left: auto
+  margin-right: auto
+.spinner_center
+  margin-left: 50%
+  margin-bottom: 40px
+.cards__container
+  margin-top: 25px
+.load_button
+  display: none
+
+@import "../blocks/smallCard/smallCard"
+@import "../blocks/bigCard/bigCard"
+@import "../blocks/filter/filter"
+@import "../blocks/loadMore/loadMore"
+@import "../blocks/preloader/preloader"
+
+
+@media screen and (min-width: 767px)
+  .mdl-shadow--4dp
+    +transition(box-shadow .3s ease-out)
+  .mdl-shadow--4dp:hover
+    box-shadow: 0 4px 9px 0 rgba(0,0,0,.14), 0 1px 13px 0 rgba(0,0,0,.12), 0 2px 4px 2px rgba(0,0,0,.2)
