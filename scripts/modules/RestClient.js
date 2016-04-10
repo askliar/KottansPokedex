@@ -33,7 +33,7 @@ function getJsonAllTypes() {
 }
 
 function handleError(errorMessage) {
-  console.log(`${errorMessage} in rest-client module`);
+  console.log(`${errorMessage} in RestClient module`);
 }
 
 export {

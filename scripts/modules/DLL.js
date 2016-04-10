@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as RestClient from './rest-client';
+import * as RestClient from './RestClient';
 import DetailedPokemon from '../viewmodels/detailed-pokemon';
 import FilterModel from '../viewmodels/filter';
 import SmallCardList from '../components/SmallCardList.jsx';
