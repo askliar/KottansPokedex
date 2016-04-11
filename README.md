@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png" width="auto" height="200px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png" width="auto" height="auto" max-height="200px">
 
 # Kottans Pokedex
 It's a task project for [kottans.org](kottans.org) JS courses. Project is available via [gh-pages](http://emohat1r.github.io/KottansPokedex/).
