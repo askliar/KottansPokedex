@@ -52,7 +52,7 @@ module.exports = function def(grunt) {
       options: {
         base: 'build'
       },
-      src: ['./index.html', './libs/**', './assets/**', './font/**']
+      src: ['./index.html', './libs/**', './assets/**', './font/**', './img/**']
     },
 
     copy: {
@@ -60,11 +60,12 @@ module.exports = function def(grunt) {
         expand: true,
         cwd: './',
         src: ['./node_modules/material-design-lite/material.min.css',
-              './libs/materialize-css/css/materialize.min.css',
-              './libs/bootstrap/bootstrap-grid.min.css',
-              './node_modules/jquery/dist/jquery.min.js',
-              './node_modules/material-design-lite/material.min.js',
-              './libs/materialize-css/js/materialize.min.js'],
+          './libs/materialize-css/css/materialize.min.css',
+          './libs/bootstrap/bootstrap-grid.min.css',
+          './node_modules/jquery/dist/jquery.min.js',
+          './node_modules/material-design-lite/material.min.js',
+          './libs/materialize-css/js/materialize.min.js'
+        ],
         dest: 'build/libs/',
         flatten: true,
         filter: 'isFile',
@@ -77,6 +78,14 @@ module.exports = function def(grunt) {
         flatten: true,
         filter: 'isFile',
       },
+      imgs: {
+        expand: true,
+        cwd: './',
+        src: ['./img/*'],
+        dest: 'build/img/',
+        flatten: true,
+        filter: 'isFile',
+      }
     },
 
     uglify: {
