@@ -5,14 +5,18 @@ It's a task project for [kottans.org](kottans.org) JS courses. Project is availa
 
 ---
 
-##### List of used technologies:
-- material design lite
-- materialize-css
+##### List of used technologies and frameworks:
 - es6
 - react
 - jade
 - sass
 - jquery
+- grunt 
+- babeljs
+- browserify
+- material design lite
+- bootstrap
+- materialize-css
 
 ---
 
